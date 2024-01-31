@@ -16,6 +16,7 @@ int main()
     minutes = seconds % 3600 / 60;
     seconds = seconds % 3600 % 60;
 
+
     cout << "Time: " << hours << ":" << minutes << ":" << seconds << endl;
 
     return 0;
